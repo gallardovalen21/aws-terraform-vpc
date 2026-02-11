@@ -24,3 +24,11 @@ Terraform (HCL): Para la orquestación y gestión del estado de la infraestructu
 AWS: Cloud Provider donde se alojan los recursos.
 
 Estructura Modular: Uso de archivos separados para vpc.tf, variables.tf, datasources.tf y outputs.tf para mayor mantenibilidad.
+
+## 📸 Visualización de la Infraestructura
+![Mapa de Recursos AWS](imgs/2.png)
+
+
+El despliegue fue realizado exitosamente, añadiendo 18 recursos sin errores:
+
+![Terraform Apply Output](imgs/1.png)
