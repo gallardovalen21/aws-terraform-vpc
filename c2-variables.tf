@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region to deploy resources"
+  description = "AWS region to deploy"
   type        = string
   default     = "us-east-1"
 }
@@ -25,7 +25,7 @@ variable "tags" {
 }
 
 variable "subnet_newbits" {
-  description = "Number of new bits to add to VPC CIDR to generate subnets (e.g., 8 means /24 from /16)"
+  description = "Number of new bits to add to VPC CIDR to generate subnets"
   type        = number
   default     = 8
 }
